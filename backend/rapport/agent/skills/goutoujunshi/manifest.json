@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/shengjidaguai-china/goutoujunshi",
+  "commit": "6db7354a4002dc7c448a9c87ffdad8132570c9d3",
+  "files": {
+    "SKILL.md": "3435a9414a177f37d3b31fdccb0f25b071d21139b1efe4487beffb5b8bf083a8",
+    "LICENSE": "1fde4d1b2b5b2dc25d83f0e5bf607bd02f10044b7e5642876c5936579cd75dc1",
+    "references/practical/实战话术编排器：从一句回复到后续分支.md": "6b0b955c8395a24f3511ad432cdec10673ad800de2e6c33849beff57249e6ca3",
+    "references/practical/场景感、松弛感与社交校准：从接话到关系推进.md": "419a02a379f02827678f7f1b8ed3c254f1da0347b8f8b13ed39aa232bb9d2087",
+    "references/knowledge/07-沟通冲突与修复.md": "f787bc457346a2c1be331826d4ebbdcb808248fab8f247532b97a3cf0a454d48"
+  }
+}

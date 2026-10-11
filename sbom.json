@@ -1,0 +1,1452 @@
+{
+ "format": "rapport-sbom-v1",
+ "generated_at": "2026-09-15",
+ "project": "rapport",
+ "note": "由 backend/uv.lock 与 frontend/package-lock.json 生成，只包含锁定组件的名称与版本。许可类别见 THIRD_PARTY_NOTICES.md；本文件不构成完整许可审计。",
+ "counts": {
+  "pypi": 72,
+  "npm": 216
+ },
+ "components": [
+  {
+   "ecosystem": "pypi",
+   "name": "alembic",
+   "version": "1.20.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "annotated-doc",
+   "version": "0.0.5"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "annotated-types",
+   "version": "0.8.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "antlr4-python3-runtime",
+   "version": "4.9.3"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "anyio",
+   "version": "4.15.1"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "certifi",
+   "version": "2026.7.22"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "cffi",
+   "version": "2.1.1"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "charset-normalizer",
+   "version": "3.5.1"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "click",
+   "version": "8.5.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "colorama",
+   "version": "0.4.6"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "colorlog",
+   "version": "6.12.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "cryptography",
+   "version": "50.0.1"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "fastapi",
+   "version": "0.141.1"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "flatbuffers",
+   "version": "25.12.19"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "freezegun",
+   "version": "1.5.5"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "greenlet",
+   "version": "3.5.5"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "h11",
+   "version": "0.16.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "httpcore",
+   "version": "1.0.9"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "httpcore2",
+   "version": "2.12.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "httptools",
+   "version": "0.8.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "httpx",
+   "version": "0.28.1"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "httpx2",
+   "version": "2.12.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "httpx2-jsfetch",
+   "version": "1.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "idna",
+   "version": "3.19"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "iniconfig",
+   "version": "2.3.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "jiter",
+   "version": "0.17.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "mako",
+   "version": "1.4.1"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "markdown-it-py",
+   "version": "4.2.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "markupsafe",
+   "version": "3.0.3"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "mdurl",
+   "version": "0.1.2"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "numpy",
+   "version": "2.5.3"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "omegaconf",
+   "version": "2.3.1"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "onnxruntime",
+   "version": "1.30.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "openai",
+   "version": "3.13.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "opencv-python",
+   "version": "5.0.0.93"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "packaging",
+   "version": "26.3"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pillow",
+   "version": "12.3.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pluggy",
+   "version": "1.6.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "protobuf",
+   "version": "7.36.1"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pyclipper",
+   "version": "1.4.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pycparser",
+   "version": "3.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pydantic",
+   "version": "2.13.5"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pydantic-core",
+   "version": "2.46.5"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pydantic-settings",
+   "version": "2.15.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pygments",
+   "version": "2.21.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pytest",
+   "version": "9.1.1"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pytest-asyncio",
+   "version": "1.4.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "python-dateutil",
+   "version": "2.9.0.post0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "python-dotenv",
+   "version": "1.2.3"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "python-multipart",
+   "version": "0.0.32"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pyyaml",
+   "version": "6.0.3"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "rapidocr",
+   "version": "3.9.2"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "rapport",
+   "version": "0.1.0a0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "requests",
+   "version": "2.34.2"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "rich",
+   "version": "15.0.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "ruff",
+   "version": "0.16.7"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "shapely",
+   "version": "2.1.2"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "shellingham",
+   "version": "1.5.4"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "six",
+   "version": "1.17.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "sniffio",
+   "version": "1.3.1"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "sqlalchemy",
+   "version": "2.0.52"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "starlette",
+   "version": "1.6.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "tqdm",
+   "version": "4.70.1"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "truststore",
+   "version": "0.10.4"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "typer",
+   "version": "0.27.2"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "typing-extensions",
+   "version": "4.16.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "typing-inspection",
+   "version": "0.4.4"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "urllib3",
+   "version": "2.7.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "uvicorn",
+   "version": "0.52.4"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "uvloop",
+   "version": "0.22.1"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "watchfiles",
+   "version": "1.2.0"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "websockets",
+   "version": "17.1"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/code-frame",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/compat-data",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/core",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/generator",
+   "version": "7.29.8"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/helper-compilation-targets",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/helper-globals",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/helper-module-imports",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/helper-module-transforms",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/helper-plugin-utils",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/helper-string-parser",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/helper-validator-identifier",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/helper-validator-option",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/helpers",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/parser",
+   "version": "7.29.8"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/plugin-transform-react-jsx-self",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/plugin-transform-react-jsx-source",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/template",
+   "version": "7.29.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/traverse",
+   "version": "7.29.8"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/types",
+   "version": "7.29.8"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/aix-ppc64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/aix-ppc64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/android-arm",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/android-arm",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/android-arm64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/android-arm64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/android-x64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/android-x64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/darwin-arm64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/darwin-arm64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/darwin-x64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/darwin-x64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/freebsd-arm64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/freebsd-arm64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/freebsd-x64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/freebsd-x64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-arm",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-arm",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-arm64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-arm64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-ia32",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-ia32",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-loong64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-loong64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-mips64el",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-mips64el",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-ppc64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-ppc64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-riscv64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-riscv64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-s390x",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-s390x",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-x64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/linux-x64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/netbsd-arm64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/netbsd-x64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/netbsd-x64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/openbsd-arm64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/openbsd-x64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/openbsd-x64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/openharmony-arm64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/sunos-x64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/sunos-x64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/win32-arm64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/win32-arm64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/win32-ia32",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/win32-ia32",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/win32-x64",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@esbuild/win32-x64",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@jridgewell/gen-mapping",
+   "version": "0.3.13"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@jridgewell/remapping",
+   "version": "2.3.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@jridgewell/resolve-uri",
+   "version": "3.1.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@jridgewell/sourcemap-codec",
+   "version": "1.6.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@jridgewell/trace-mapping",
+   "version": "0.3.31"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@napi-rs/lzma-linux-x64-gnu",
+   "version": "1.5.1"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rolldown/pluginutils",
+   "version": "1.0.0-beta.27"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-android-arm-eabi",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-android-arm64",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-darwin-arm64",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-darwin-x64",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-freebsd-arm64",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-freebsd-x64",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-linux-arm-gnueabihf",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-linux-arm-musleabihf",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-linux-arm64-gnu",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-linux-arm64-musl",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-linux-loong64-gnu",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-linux-loong64-musl",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-linux-ppc64-gnu",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-linux-ppc64-musl",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-linux-riscv64-gnu",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-linux-riscv64-musl",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-linux-s390x-gnu",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-linux-x64-gnu",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-linux-x64-musl",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-openbsd-x64",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-openharmony-arm64",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-win32-arm64-msvc",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-win32-ia32-msvc",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-win32-x64-gnu",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-win32-x64-msvc",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/node",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-android-arm64",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-darwin-arm64",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-darwin-x64",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-freebsd-x64",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-linux-arm-gnueabihf",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-linux-arm64-gnu",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-linux-arm64-musl",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-linux-x64-gnu",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-linux-x64-musl",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-wasm32-wasi",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-win32-arm64-msvc",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-win32-x64-msvc",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/vite",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tanstack/query-core",
+   "version": "5.102.8"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@tanstack/react-query",
+   "version": "5.102.8"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@types/babel__core",
+   "version": "7.20.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@types/babel__generator",
+   "version": "7.27.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@types/babel__template",
+   "version": "7.4.4"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@types/babel__traverse",
+   "version": "7.28.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@types/estree",
+   "version": "1.0.9"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@types/react",
+   "version": "19.3.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@types/react-dom",
+   "version": "19.3.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@vitejs/plugin-react",
+   "version": "4.7.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@vitest/expect",
+   "version": "2.1.9"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@vitest/mocker",
+   "version": "2.1.9"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@vitest/pretty-format",
+   "version": "2.1.9"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@vitest/runner",
+   "version": "2.1.9"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@vitest/snapshot",
+   "version": "2.1.9"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@vitest/spy",
+   "version": "2.1.9"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@vitest/utils",
+   "version": "2.1.9"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "assertion-error",
+   "version": "2.0.1"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "baseline-browser-mapping",
+   "version": "2.11.23"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "browserslist",
+   "version": "4.28.9"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "cac",
+   "version": "6.7.14"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "caniuse-lite",
+   "version": "1.0.30001810"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "chai",
+   "version": "5.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "check-error",
+   "version": "2.1.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "convert-source-map",
+   "version": "2.0.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "cookie",
+   "version": "1.1.1"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "csstype",
+   "version": "3.2.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "debug",
+   "version": "4.4.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "deep-eql",
+   "version": "5.0.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "detect-libc",
+   "version": "2.1.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "echarts",
+   "version": "5.6.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "electron-to-chromium",
+   "version": "1.5.427"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "enhanced-resolve",
+   "version": "5.25.1"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "es-module-lexer",
+   "version": "1.7.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "esbuild",
+   "version": "0.21.5"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "esbuild",
+   "version": "0.25.12"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "escalade",
+   "version": "3.2.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "estree-walker",
+   "version": "3.0.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "expect-type",
+   "version": "1.4.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "fdir",
+   "version": "6.5.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "fsevents",
+   "version": "2.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "gensync",
+   "version": "1.0.0-beta.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "graceful-fs",
+   "version": "4.2.11"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "jiti",
+   "version": "2.7.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "js-tokens",
+   "version": "4.0.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "jsesc",
+   "version": "3.1.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "json5",
+   "version": "2.2.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "lightningcss",
+   "version": "1.32.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "lightningcss-android-arm64",
+   "version": "1.32.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "lightningcss-darwin-arm64",
+   "version": "1.32.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "lightningcss-darwin-x64",
+   "version": "1.32.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "lightningcss-freebsd-x64",
+   "version": "1.32.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "lightningcss-linux-arm-gnueabihf",
+   "version": "1.32.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "lightningcss-linux-arm64-gnu",
+   "version": "1.32.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "lightningcss-linux-arm64-musl",
+   "version": "1.32.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "lightningcss-linux-x64-gnu",
+   "version": "1.32.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "lightningcss-linux-x64-musl",
+   "version": "1.32.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "lightningcss-win32-arm64-msvc",
+   "version": "1.32.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "lightningcss-win32-x64-msvc",
+   "version": "1.32.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "loupe",
+   "version": "3.2.1"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "lru-cache",
+   "version": "5.1.1"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "magic-string",
+   "version": "0.30.21"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "ms",
+   "version": "2.1.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "nanoid",
+   "version": "3.3.19"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "node-releases",
+   "version": "2.0.55"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "pathe",
+   "version": "1.1.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "pathval",
+   "version": "2.0.1"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "picocolors",
+   "version": "1.1.1"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "picomatch",
+   "version": "4.0.7"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "postcss",
+   "version": "8.5.28"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "react",
+   "version": "19.3.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "react-dom",
+   "version": "19.3.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "react-refresh",
+   "version": "0.17.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "react-router",
+   "version": "7.18.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "react-router-dom",
+   "version": "7.18.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "rollup",
+   "version": "4.63.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "scheduler",
+   "version": "0.28.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "semver",
+   "version": "6.3.1"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "set-cookie-parser",
+   "version": "2.7.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "siginfo",
+   "version": "2.0.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "source-map-js",
+   "version": "1.2.1"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "stackback",
+   "version": "0.0.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "std-env",
+   "version": "3.10.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "tailwindcss",
+   "version": "4.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "tapable",
+   "version": "2.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "tinybench",
+   "version": "2.9.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "tinyexec",
+   "version": "0.3.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "tinyglobby",
+   "version": "0.2.17"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "tinypool",
+   "version": "1.1.1"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "tinyrainbow",
+   "version": "1.2.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "tinyspy",
+   "version": "3.0.2"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "tslib",
+   "version": "2.3.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "typescript",
+   "version": "5.9.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "update-browserslist-db",
+   "version": "1.3.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "vite",
+   "version": "5.4.21"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "vite",
+   "version": "6.4.3"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "vite-node",
+   "version": "2.1.9"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "vitest",
+   "version": "2.1.9"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "why-is-node-running",
+   "version": "2.3.0"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "yallist",
+   "version": "3.1.1"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "zrender",
+   "version": "5.6.1"
+  }
+ ]
+}

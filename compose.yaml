@@ -1,0 +1,18 @@
+services:
+  rapport:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: rapport-ai:local
+    container_name: rapport
+    # Only the host loopback is exposed. Do not change to 0.0.0.0 without TLS + your own auth.
+    ports:
+      - "127.0.0.1:7860:7860"
+    environment:
+      RAPPORT_PAIRING_CODE: ${RAPPORT_PAIRING_CODE:-}
+      RAPPORT_API_KEY: ${RAPPORT_API_KEY:-}
+    volumes:
+      - rapport-data:/data
+    restart: unless-stopped
+volumes:
+  rapport-data:

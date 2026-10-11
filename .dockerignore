@@ -1,0 +1,9 @@
+.git
+**/node_modules
+**/.venv
+**/__pycache__
+**/dist
+frontend/dist
+.rapport
+*.db
+fixtures/synthetic/screenshots

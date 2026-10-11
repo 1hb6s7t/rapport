@@ -1,0 +1,946 @@
+{
+ "schema": "rapport-reference-v1",
+ "note": "全部为本项目原创编写的合成对照例，不含任何第三方语料。检索只用于给模型提供语用类比的参考，不作为本次对话的证据。",
+ "examples": [
+  {
+   "example_id": "seed:p001",
+   "layer": "pragmatic",
+   "context": [
+    "A: 你不是说六点一定到吗",
+    "B: 路上堵车",
+    "A: 上次你也是这么说的",
+    "B: 我生气了"
+   ],
+   "text": "我生气了",
+   "pragmatic_tags": [
+    "真生气"
+   ],
+   "emotions": [
+    "不满"
+   ],
+   "note": "重复失信之后的字面表达",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p002",
+   "layer": "pragmatic",
+   "context": [
+    "A: 你今天怎么这么笨哈哈哈",
+    "B: 你自己也没好到哪去",
+    "A: 那我们俩是笨蛋组合",
+    "B: 我生气了"
+   ],
+   "text": "我生气了",
+   "pragmatic_tags": [
+    "调侃",
+    "撒娇假生气"
+   ],
+   "emotions": [
+    "开心",
+    "亲近"
+   ],
+   "note": "互相打趣中的佯装不满",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p003",
+   "layer": "pragmatic",
+   "context": [
+    "A: 我已经把你的秘密告诉别人了",
+    "B: 你说什么",
+    "A: 开玩笑的",
+    "B: 我生气了"
+   ],
+   "text": "我生气了",
+   "pragmatic_tags": [
+    "真生气"
+   ],
+   "emotions": [
+    "不满",
+    "伤心"
+   ],
+   "note": "越界的玩笑",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p004",
+   "layer": "pragmatic",
+   "context": [
+    "A: 我给你点了奶茶，猜你在加班",
+    "B: 你真讨厌",
+    "A: 不喜欢吗",
+    "B: 喜欢的，谢谢你还记得"
+   ],
+   "text": "你真讨厌",
+   "pragmatic_tags": [
+    "撒娇假生气"
+   ],
+   "emotions": [
+    "开心",
+    "亲近"
+   ],
+   "note": "被照顾后的嗔怪",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p005",
+   "layer": "pragmatic",
+   "context": [
+    "A: 你自己说要减肥的",
+    "B: 你还说你要早睡呢",
+    "A: 别扯我",
+    "B: 你真讨厌"
+   ],
+   "text": "你真讨厌",
+   "pragmatic_tags": [
+    "调侃"
+   ],
+   "emotions": [
+    "开心"
+   ],
+   "note": "旗鼓相当的对呛",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p006",
+   "layer": "pragmatic",
+   "context": [
+    "A: 周末去爬山吧",
+    "B: 我那天要加班",
+    "A: 你就是不想陪我",
+    "B: 随便你"
+   ],
+   "text": "随便你",
+   "pragmatic_tags": [
+    "真生气"
+   ],
+   "emotions": [
+    "不满"
+   ],
+   "note": "被指责后的负气",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p007",
+   "layer": "pragmatic",
+   "context": [
+    "A: 晚上吃火锅还是日料",
+    "B: 你选吧我都可以",
+    "A: 那你选",
+    "B: 随便你"
+   ],
+   "text": "随便你",
+   "pragmatic_tags": [
+    "信息确认"
+   ],
+   "emotions": [
+    "不确定"
+   ],
+   "note": "真的不介意，需要靠前文区分",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p008",
+   "layer": "pragmatic",
+   "context": [
+    "A: 我这不是为了你好吗",
+    "B: 你想过我要不要吗",
+    "A: 那你说怎么办",
+    "B: 呵呵"
+   ],
+   "text": "呵呵",
+   "pragmatic_tags": [
+    "反讽"
+   ],
+   "emotions": [
+    "不满"
+   ],
+   "note": "冷笑式收场",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p009",
+   "layer": "pragmatic",
+   "context": [
+    "A: 刚才那只猫摔了个跟头哈哈哈",
+    "B: 呵呵",
+    "A: 你怎么这么没同情心",
+    "B: 我是笑它爬起来还装作没事"
+   ],
+   "text": "呵呵",
+   "pragmatic_tags": [
+    "调侃"
+   ],
+   "emotions": [
+    "开心"
+   ],
+   "note": "被逗乐",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p010",
+   "layer": "pragmatic",
+   "context": [
+    "A: 周六那个展我们去吧",
+    "B: 好啊",
+    "A: 那就周六下午两点",
+    "B: 好吧"
+   ],
+   "text": "好吧",
+   "pragmatic_tags": [
+    "信息确认"
+   ],
+   "emotions": [
+    "开心"
+   ],
+   "note": "确认安排",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p011",
+   "layer": "pragmatic",
+   "context": [
+    "A: 对不起，周末要出差，见面取消",
+    "B: 好吧",
+    "A: 你别生气",
+    "B: 我没生气"
+   ],
+   "text": "好吧",
+   "pragmatic_tags": [
+    "真生气",
+    "寻求安慰"
+   ],
+   "emotions": [
+    "不满",
+    "伤心"
+   ],
+   "note": "失望但压着",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p012",
+   "layer": "pragmatic",
+   "context": [
+    "A: 在吗，想和你说个事",
+    "B: 在改方案，晚点说",
+    "A: 那算了",
+    "B: 你忙吧"
+   ],
+   "text": "你忙吧",
+   "pragmatic_tags": [
+    "真生气"
+   ],
+   "emotions": [
+    "不满"
+   ],
+   "note": "被搁置后的负气",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p013",
+   "layer": "pragmatic",
+   "context": [
+    "A: 我今天要通宵赶稿",
+    "B: 你忙吧，注意身体",
+    "A: 谢谢理解",
+    "B: 明天记得补觉"
+   ],
+   "text": "你忙吧",
+   "pragmatic_tags": [
+    "信息确认"
+   ],
+   "emotions": [
+    "亲近"
+   ],
+   "note": "体谅",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p014",
+   "layer": "pragmatic",
+   "context": [
+    "A: 要我去接你吗，下雨了",
+    "B: 不用了",
+    "A: 真的不用",
+    "B: 不用了，我打车就行"
+   ],
+   "text": "不用了",
+   "pragmatic_tags": [
+    "委婉拒绝"
+   ],
+   "emotions": [
+    "不确定"
+   ],
+   "note": "礼貌拒绝",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p015",
+   "layer": "pragmatic",
+   "context": [
+    "A: 我给你带份早饭吧",
+    "B: 不用了",
+    "A: 上次你也说不用",
+    "B: 你非要问就是不用了"
+   ],
+   "text": "不用了",
+   "pragmatic_tags": [
+    "反讽"
+   ],
+   "emotions": [
+    "不满"
+   ],
+   "note": "期待对方坚持，靠后文区分",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p016",
+   "layer": "pragmatic",
+   "context": [
+    "A: 刚才那话我不是那个意思",
+    "B: 我没事",
+    "A: 那你为什么不说话",
+    "B: 真的没事，你别问了"
+   ],
+   "text": "我没事",
+   "pragmatic_tags": [
+    "真生气",
+    "寻求安慰"
+   ],
+   "emotions": [
+    "伤心"
+   ],
+   "note": "压着情绪",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p017",
+   "layer": "pragmatic",
+   "context": [
+    "A: 抱歉刚才踩到你脚了",
+    "B: 我没事",
+    "A: 疼吗",
+    "B: 不疼，走吧"
+   ],
+   "text": "我没事",
+   "pragmatic_tags": [
+    "信息确认"
+   ],
+   "emotions": [
+    "不确定"
+   ],
+   "note": "确实没事",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p018",
+   "layer": "pragmatic",
+   "context": [
+    "A: 帮我把文件发一下",
+    "B: 好的呢",
+    "A: 谢谢",
+    "B: 不客气"
+   ],
+   "text": "好的呢",
+   "pragmatic_tags": [
+    "信息确认"
+   ],
+   "emotions": [
+    "开心"
+   ],
+   "note": "配合回应",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p019",
+   "layer": "pragmatic",
+   "context": [
+    "A: 你顺便把下周的报表也做了吧",
+    "B: 好的呢",
+    "A: 你最近怎么这么冷淡",
+    "B: 没有啊"
+   ],
+   "text": "好的呢",
+   "pragmatic_tags": [
+    "委婉拒绝"
+   ],
+   "emotions": [
+    "不满"
+   ],
+   "note": "不情愿的应付",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p020",
+   "layer": "pragmatic",
+   "context": [
+    "A: 那我们把方案定成A版",
+    "B: 就这样吧",
+    "A: 那就这么办",
+    "B: 嗯"
+   ],
+   "text": "就这样吧",
+   "pragmatic_tags": [
+    "信息确认"
+   ],
+   "emotions": [
+    "不确定"
+   ],
+   "note": "结束讨论",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p021",
+   "layer": "pragmatic",
+   "context": [
+    "A: 你到底想怎么样",
+    "B: 我不想吵了",
+    "A: 那你说清楚",
+    "B: 就这样吧"
+   ],
+   "text": "就这样吧",
+   "pragmatic_tags": [
+    "真生气"
+   ],
+   "emotions": [
+    "不满",
+    "伤心"
+   ],
+   "note": "冲突收场",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p022",
+   "layer": "pragmatic",
+   "context": [
+    "A: 我今天被领导骂了",
+    "B: 怎么回事",
+    "A: 说我把数据搞错了",
+    "B: 你肯定很难受吧"
+   ],
+   "text": "你肯定很难受吧",
+   "pragmatic_tags": [
+    "寻求安慰"
+   ],
+   "emotions": [
+    "亲近"
+   ],
+   "note": "共情式回应",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p023",
+   "layer": "pragmatic",
+   "context": [
+    "A: 面试又没过",
+    "B: 第几家了",
+    "A: 第五家",
+    "B: 抱一下，你已经很努力了"
+   ],
+   "text": "抱一下，你已经很努力了",
+   "pragmatic_tags": [
+    "寻求安慰"
+   ],
+   "emotions": [
+    "亲近",
+    "伤心"
+   ],
+   "note": "主动提供支持",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p024",
+   "layer": "pragmatic",
+   "context": [
+    "A: 我明天要去医院复查",
+    "B: 几点",
+    "A: 早上八点",
+    "B: 我陪你去吧"
+   ],
+   "text": "我陪你去吧",
+   "pragmatic_tags": [
+    "寻求安慰",
+    "信息确认"
+   ],
+   "emotions": [
+    "亲近"
+   ],
+   "note": "行动式关心",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p025",
+   "layer": "pragmatic",
+   "context": [
+    "A: 我最近状态很差",
+    "B: 怎么了",
+    "A: 说不上来",
+    "B: 那先别急着说，我在"
+   ],
+   "text": "那先别急着说，我在",
+   "pragmatic_tags": [
+    "寻求安慰"
+   ],
+   "emotions": [
+    "亲近"
+   ],
+   "note": "不追问的陪伴",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p026",
+   "layer": "pragmatic",
+   "context": [
+    "A: 你明天几点到",
+    "B: 大概十点",
+    "A: 高铁还是开车",
+    "B: 高铁，三点半那班"
+   ],
+   "text": "高铁，三点半那班",
+   "pragmatic_tags": [
+    "信息确认"
+   ],
+   "emotions": [
+    "不确定"
+   ],
+   "note": "纯信息交换",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p027",
+   "layer": "pragmatic",
+   "context": [
+    "A: 那份资料你看了吗",
+    "B: 看了",
+    "A: 感觉怎么样",
+    "B: 第三部分我觉得可以再改改"
+   ],
+   "text": "第三部分我觉得可以再改改",
+   "pragmatic_tags": [
+    "信息确认"
+   ],
+   "emotions": [
+    "不确定"
+   ],
+   "note": "具体反馈",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p028",
+   "layer": "pragmatic",
+   "context": [
+    "A: 我们几点出发",
+    "B: 你说",
+    "A: 八点",
+    "B: 好，我定闹钟"
+   ],
+   "text": "好，我定闹钟",
+   "pragmatic_tags": [
+    "信息确认"
+   ],
+   "emotions": [
+    "开心"
+   ],
+   "note": "确认并落实",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p029",
+   "layer": "pragmatic",
+   "context": [
+    "A: 你周末有空吗",
+    "B: 怎么啦",
+    "A: 想约你看电影",
+    "B: 我看看安排"
+   ],
+   "text": "我看看安排",
+   "pragmatic_tags": [
+    "委婉拒绝"
+   ],
+   "emotions": [
+    "不确定"
+   ],
+   "note": "没有直接答应的模糊回应",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p030",
+   "layer": "pragmatic",
+   "context": [
+    "A: 一起去旅行吧",
+    "B: 最近有点忙",
+    "A: 那下个月",
+    "B: 再说吧，先这样"
+   ],
+   "text": "再说吧，先这样",
+   "pragmatic_tags": [
+    "委婉拒绝"
+   ],
+   "emotions": [
+    "不满"
+   ],
+   "note": "连续推迟",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p031",
+   "layer": "pragmatic",
+   "context": [
+    "A: 你能帮我个忙吗",
+    "B: 什么忙",
+    "A: 帮我改改简历",
+    "B: 我这周实在排不开，下周可以吗"
+   ],
+   "text": "我这周实在排不开，下周可以吗",
+   "pragmatic_tags": [
+    "委婉拒绝",
+    "信息确认"
+   ],
+   "emotions": [
+    "不确定"
+   ],
+   "note": "拒绝但给替代时间",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p032",
+   "layer": "pragmatic",
+   "context": [
+    "A: 你昨天怎么不回我",
+    "B: 手机没电了",
+    "A: 那你充上电也不回",
+    "B: 知道了知道了"
+   ],
+   "text": "知道了知道了",
+   "pragmatic_tags": [
+    "真生气"
+   ],
+   "emotions": [
+    "不满"
+   ],
+   "note": "不耐烦的敷衍",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p033",
+   "layer": "pragmatic",
+   "context": [
+    "A: 你又忘记我说的话了",
+    "B: 我记得",
+    "A: 那我说了什么",
+    "B: 你说是让我早睡"
+   ],
+   "text": "你说是让我早睡",
+   "pragmatic_tags": [
+    "信息确认"
+   ],
+   "emotions": [
+    "开心"
+   ],
+   "note": "证明记得",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p034",
+   "layer": "pragmatic",
+   "context": [
+    "A: 我不太舒服",
+    "B: 哪里不舒服",
+    "A: 头有点疼",
+    "B: 那你去睡一会，别硬撑"
+   ],
+   "text": "那你去睡一会，别硬撑",
+   "pragmatic_tags": [
+    "寻求安慰"
+   ],
+   "emotions": [
+    "亲近"
+   ],
+   "note": "关心式建议",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p035",
+   "layer": "pragmatic",
+   "context": [
+    "A: 你最近怎么都不主动找我",
+    "B: 我以为你在忙",
+    "A: 我一直在等",
+    "B: 是我不好"
+   ],
+   "text": "是我不好",
+   "pragmatic_tags": [
+    "寻求安慰"
+   ],
+   "emotions": [
+    "伤心"
+   ],
+   "note": "道歉式回应",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p036",
+   "layer": "pragmatic",
+   "context": [
+    "A: 你上次说的那家店叫什么",
+    "B: 我也忘了",
+    "A: 你记性真差",
+    "B: 你记性好你来"
+   ],
+   "text": "你记性好你来",
+   "pragmatic_tags": [
+    "调侃"
+   ],
+   "emotions": [
+    "开心"
+   ],
+   "note": "轻松对呛",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p037",
+   "layer": "pragmatic",
+   "context": [
+    "A: 我给你表演个魔术",
+    "B: 你又要耍宝了",
+    "A: 看好了",
+    "B: 行行行，你继续"
+   ],
+   "text": "行行行，你继续",
+   "pragmatic_tags": [
+    "调侃"
+   ],
+   "emotions": [
+    "开心",
+    "亲近"
+   ],
+   "note": "配合式打趣",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p038",
+   "layer": "pragmatic",
+   "context": [
+    "A: 我做的菜好吃吗",
+    "B: 你自己先尝一口",
+    "A: 有那么难吃吗",
+    "B: 我说难吃你会不高兴，我说好吃你自己信吗"
+   ],
+   "text": "我说难吃你会不高兴，我说好吃你自己信吗",
+   "pragmatic_tags": [
+    "调侃",
+    "反讽"
+   ],
+   "emotions": [
+    "开心"
+   ],
+   "note": "玩笑式的否定",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p039",
+   "layer": "pragmatic",
+   "context": [
+    "A: 你真是我见过最靠谱的人",
+    "B: 那你见过的人也太少了",
+    "A: 我认真的",
+    "B: 我也认真的"
+   ],
+   "text": "那你见过的人也太少了",
+   "pragmatic_tags": [
+    "调侃"
+   ],
+   "emotions": [
+    "开心"
+   ],
+   "note": "自嘲式回应夸奖",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p040",
+   "layer": "pragmatic",
+   "context": [
+    "A: 我把你上次的录音删了",
+    "B: 那是我给客户做的",
+    "A: 我不知道",
+    "B: 行，你真行"
+   ],
+   "text": "行，你真行",
+   "pragmatic_tags": [
+    "反讽",
+    "真生气"
+   ],
+   "emotions": [
+    "不满"
+   ],
+   "note": "反话表达不满",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p041",
+   "layer": "pragmatic",
+   "context": [
+    "A: 你又迟到了半小时",
+    "B: 路上真的堵",
+    "A: 每次都堵",
+    "B: 那你下次别等我了"
+   ],
+   "text": "那你下次别等我了",
+   "pragmatic_tags": [
+    "真生气"
+   ],
+   "emotions": [
+    "不满"
+   ],
+   "note": "赌气式的结束语",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  },
+  {
+   "example_id": "seed:p042",
+   "layer": "pragmatic",
+   "context": [
+    "A: 我想你了",
+    "B: 肉麻",
+    "A: 哪里肉麻",
+    "B: 不过我也想"
+   ],
+   "text": "不过我也想",
+   "pragmatic_tags": [
+    "撒娇假生气",
+    "信息确认"
+   ],
+   "emotions": [
+    "亲近",
+    "开心"
+   ],
+   "note": "先佯装再承认",
+   "source_dataset": "rapport-original-seeds",
+   "source_url": "",
+   "license_review_status": "approved_for_local_reference",
+   "revision": 1
+  }
+ ]
+}

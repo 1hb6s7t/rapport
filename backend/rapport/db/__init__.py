@@ -1,0 +1,43 @@
+from rapport.db.migrate import ensure_schema
+from rapport.db.models import (
+    DEFAULT_RELATIONSHIP_ID,
+    ActionLog,
+    Analysis,
+    Base,
+    DiaryRow,
+    Event,
+    Feedback,
+    GoldLabel,
+    Import,
+    LLMCall,
+    Nudge,
+    Outcome,
+    PersonaVersion,
+    Relationship,
+    ReportRow,
+    Setting,
+    Snapshot,
+)
+from rapport.db.session import Database
+
+__all__ = [
+    "DEFAULT_RELATIONSHIP_ID",
+    "ActionLog",
+    "Analysis",
+    "Base",
+    "Database",
+    "DiaryRow",
+    "Event",
+    "Feedback",
+    "GoldLabel",
+    "Import",
+    "LLMCall",
+    "Nudge",
+    "Outcome",
+    "PersonaVersion",
+    "Relationship",
+    "ReportRow",
+    "Setting",
+    "Snapshot",
+    "ensure_schema",
+]

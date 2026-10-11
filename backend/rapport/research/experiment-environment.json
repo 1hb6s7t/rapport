@@ -1,0 +1,24 @@
+{
+  "python": "3.12.2",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.51.3",
+  "numpy": "2.2.6",
+  "safetensors": "0.5.3",
+  "encoder": {
+    "repository": "BAAI/bge-small-zh-v1.5",
+    "revision": "7999e1d3359715c523056ef9478215996d62a620",
+    "model_safetensors_sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026",
+    "license": "MIT",
+    "pooling": "normalized_cls",
+    "max_tokens": 96,
+    "frozen": true
+  },
+  "paper_implementations": {
+    "dag_erc": {"commit": "ba7639dd12cdfa77cbde762f22f94266b30073d2", "license": "Apache-2.0", "reuse": "upstream_code_adapter"},
+    "dialogue_crn": {"commit": "2c2070d07ff190be25082804c13521aac8d25844", "license": "MIT", "reuse": "upstream_code_adapter"},
+    "dialogue_gcn": {"paper": "D19-1015", "reuse": "independent_equation_implementation"}
+  },
+  "original_paper_scores_reproduced": false,
+  "model_download_during_inference": false,
+  "trust_remote_code": false
+}

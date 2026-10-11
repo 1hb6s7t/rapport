@@ -1,0 +1,30 @@
+{
+  "commit": "5dabba5ae034686185d9ff6612e2d57d694bff68",
+  "repository": "https://github.com/CornellNLP/ConvoKit",
+  "files": {
+    "strategy_extractor.py": {
+      "upstream_path": "convokit/politeness_collections/politeness_cscw_zh/strategy_extractor.py",
+      "upstream_sha256": "ed9c99997b42451a1529d577993bba5d8c1c32d6edfb3d00bc6d8f178f97834a"
+    },
+    "marker_utils.py": {
+      "upstream_path": "convokit/politeness_collections/marker_utils.py",
+      "upstream_sha256": "ade30638b687a8c9351242d167157fec2b9928364eed52195b9c120ad8932389"
+    },
+    "LICENSE": {
+      "upstream_path": "LICENSE.md",
+      "upstream_sha256": "4a866eed3bbe98c730eb2b179525c6f38fba503742f1cf601222652b2bbc9a09"
+    },
+    "lexicons/ngram_markers.json": {
+      "upstream_path": "convokit/politeness_collections/politeness_cscw_zh/lexicons/ngram_markers.json",
+      "upstream_sha256": "c8bdfdbb5f07b39200d20da4bf659e513d6fe9ba82bc9d100cc884acd8b59af5"
+    },
+    "lexicons/starter_markers.json": {
+      "upstream_path": "convokit/politeness_collections/politeness_cscw_zh/lexicons/starter_markers.json",
+      "upstream_sha256": "d1cd883068e041cb601d0016e6d39860e3d49996107cb9338e31ad88b0e9405b"
+    },
+    "lexicons/non_starter_markers.json": {
+      "upstream_path": "convokit/politeness_collections/politeness_cscw_zh/lexicons/non_starter_markers.json",
+      "upstream_sha256": "c4036556232bbc690f1ba6d2a7190b9d9799e5ae3541e7a6a4a2b07cad88d7e4"
+    }
+  }
+}

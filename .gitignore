@@ -1,0 +1,44 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+# node
+node_modules/
+frontend/dist/
+# app data
+.rapport/
+*.db
+*.db-wal
+*.db-shm
+*.enc
+.key
+# Isolated native acceptance data, receipts and screenshots
+/qa/rapport-wechat-acceptance/
+# env
+.env
+.env.*
+# os / ide
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# personal material that must never be committed
+data/
+desktop-data/
+cache/
+models/
+selected-model/
+native/
+output/
+dependencies/
+dependencies-asr/
+*.bin
+*.log
+.runtime-token
+connection.json

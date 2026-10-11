@@ -1,0 +1,21 @@
+{
+  "export": {"version": "1.0", "exportedAt": "2026-09-01T12:00:00+08:00", "generator": "synthetic"},
+  "session": {"wxid": "wxid_synthetic", "nickname": "小红", "remark": "小红", "displayName": "小红", "type": "private", "messageCount": 14},
+  "messages": [
+    {"localId": "1", "createTime": "1788264933", "formattedTime": "2026-09-01 20:15:33", "type": "文本消息", "localType": "1", "content": "你好呀", "isSend": "0", "senderUsername": "wxid_synthetic", "senderDisplayName": "小红"},
+    {"localId": "2", "createTime": "1788264960", "formattedTime": "2026-09-01 20:16:00", "type": "文本消息", "localType": "1", "content": "在的，周末有空吗", "isSend": "1", "senderUsername": "wxid_me", "senderDisplayName": "小明"},
+    {"localId": "3", "createTime": "1788265000", "formattedTime": "2026-09-01 20:16:40", "type": "语音消息", "localType": "34", "content": "[语音转文字] 有空呀，周六下午两点？", "isSend": "0", "senderUsername": "wxid_synthetic", "senderDisplayName": "小红"},
+    {"localId": "4", "createTime": "1788265050", "formattedTime": "2026-09-01 20:17:30", "type": "语音消息", "localType": "34", "content": "", "isSend": "0", "senderUsername": "wxid_synthetic", "senderDisplayName": "小红"},
+    {"localId": "5", "createTime": "1788265100", "formattedTime": "2026-09-01 20:18:20", "type": "引用消息", "localType": "244813135921", "content": "好，到时候见[引用 小红：有空呀，周六下午两点？]", "isSend": "1", "senderUsername": "wxid_me", "senderDisplayName": "小明", "quotedSender": "小红", "quotedContent": "有空呀，周六下午两点？"},
+    {"localId": "6", "createTime": "1788265200", "formattedTime": "2026-09-01 20:20:00", "type": "图片消息", "localType": "3", "content": "media\\images\\img_0001.jpg", "isSend": "0", "senderUsername": "wxid_synthetic", "senderDisplayName": "小红"},
+    {"localId": "7", "createTime": "1788265260", "formattedTime": "2026-09-01 20:21:00", "type": "动画表情", "localType": "47", "content": "media\\emojis\\e_0001.gif", "isSend": "1", "senderUsername": "wxid_me", "senderDisplayName": "小明", "emojiMd5": "abc123"},
+    {"localId": "8", "createTime": "1788265320", "formattedTime": "2026-09-01 20:22:00", "type": "视频消息", "localType": "43", "content": "media\\videos\\v_0001.mp4", "isSend": "0", "senderUsername": "wxid_synthetic", "senderDisplayName": "小红"},
+    {"localId": "9", "createTime": "1788265380", "formattedTime": "2026-09-01 20:23:00", "type": "文件消息", "localType": "25769803825", "content": "[文件] 行程.xlsx", "isSend": "1", "senderUsername": "wxid_me", "senderDisplayName": "小明"},
+    {"localId": "10", "createTime": "1788265440", "formattedTime": "2026-09-01 20:24:00", "type": "通话消息", "localType": "50", "content": "[语音通话] 00:12", "isSend": "0", "senderUsername": "wxid_synthetic", "senderDisplayName": "小红"},
+    {"localId": "11", "createTime": "1788265500", "formattedTime": "2026-09-01 20:25:00", "type": "转账消息", "localType": "8589934592049", "content": "[转账] ¥2.00", "isSend": "1", "senderUsername": "wxid_me", "senderDisplayName": "小明"},
+    {"localId": "12", "createTime": "1788265560", "formattedTime": "2026-09-01 20:26:00", "type": "链接消息", "localType": "21474836529", "content": "[链接] 周末去哪儿", "isSend": "0", "senderUsername": "wxid_synthetic", "senderDisplayName": "小红", "linkTitle": "周末去哪儿", "linkUrl": "https://example.invalid/x"},
+    {"localId": "13", "createTime": "1788265620", "formattedTime": "2026-09-01 20:27:00", "type": "系统消息", "localType": "10000", "content": "\"小红\" 撤回了一条消息", "isSend": "0", "senderUsername": "wxid_synthetic", "senderDisplayName": "小红"},
+    {"localId": "14", "createTime": "1788265680", "formattedTime": "2026-09-01 20:28:00", "type": "聊天记录", "localType": "81604378673", "content": "[转发的聊天记录]", "isSend": "1", "senderUsername": "wxid_me", "senderDisplayName": "小明"}
+  ],
+  "avatars": {"wxid_synthetic": "avatar_0001.jpg"}
+}

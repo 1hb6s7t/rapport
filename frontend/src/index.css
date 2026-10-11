@@ -1,0 +1,198 @@
+@import "tailwindcss";
+
+/* 心迹 Rapport —「柔和关系智能」设计系统（docs/DESIGN.md）
+   愿景：暖白为底，浅粉为韵，灰紫与桃色作点缀，让理性判断长在温柔的壳里。
+   对比度：正文色对底色全部 ≥ 4.5:1；浅粉只用于填充与描边，不用于正文。 */
+
+@theme {
+  /* 文字与中性色 */
+  --color-ink: #29232d;
+  --color-ink-2: #4a444f;
+  --color-ink-3: #756d79;
+  --color-line: #f0e5e9;
+  --color-line-2: #e3d2da;
+  --color-paper: #fffafb;   /* 页面底 */
+  --color-paper-2: #fdf1f5; /* 极浅粉 */
+  --color-card: #ffffff;
+
+  /* 品牌：浅粉 → 深玫红 */
+  --color-brand: #f47c9c;        /* Primary Pink — 只作填充/描边，不作正文 */
+  --color-brand-2: #e9688a;      /* Secondary Rose */
+  --color-brand-strong: #d03a62; /* 白字填充时保证 ≥4.5:1 */
+  --color-brand-ink: #b93a5e;    /* 浅色底上的玫红正文/链接 */
+  --color-brand-soft: #fbe7ed;
+  --color-brand-mist: #fff3f6;
+
+  /* 点缀 */
+  --color-accent: #e9688a;
+  --color-accent-soft: #fbe7ed;
+  --color-lavender: #9a8ce8;
+  --color-lavender-deep: #6d5fd3; /* 正文级灰紫 */
+  --color-lavender-soft: #f0edff;
+  --color-peach: #ffad8a;
+  --color-peach-soft: #fff1e8;
+  --color-mint: #77c8ae;
+  --color-mint-deep: #2f855a;
+  --color-mint-soft: #e6f5ee;
+
+  /* 语义 */
+  --color-good: #2f855a;
+  --color-good-soft: #e6f5ee;
+  --color-warn: #b3434f;          /* 温和警示的正文色 */
+  --color-warn-soft: #fff1f3;
+  --color-warn-line: #f6c6ce;
+  --color-danger: #e75c72;
+  --color-info: #6d5fd3;
+  --color-info-soft: #f0edff;
+  --color-gold: #b45309;
+  --color-gold-soft: #fdf3e3;
+
+  /* 圆角（spec §22） */
+  --radius-btn: 10px;
+  --radius-input: 12px;
+  --radius-sm-card: 14px;
+  --radius-card: 16px;
+  --radius-lg-card: 20px;
+  --radius-modal: 24px;
+
+  /* 阴影：轻、软、几乎没有 */
+  --shadow-card: 0 4px 24px rgb(160 80 110 / 0.06);
+  --shadow-card-hover: 0 10px 32px rgb(160 80 110 / 0.1);
+  --shadow-pop: 0 12px 40px rgb(120 60 85 / 0.14);
+
+  /* 字体 */
+  --font-sans: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", Inter, Manrope, system-ui, -apple-system, sans-serif;
+
+  /* 动效：克制（spec §24） */
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --duration-fast: 150ms;
+  --duration-med: 220ms;
+}
+
+html { color-scheme: light; }
+
+body {
+  @apply text-ink font-sans antialiased;
+  margin: 0;
+  background:
+    radial-gradient(1000px 520px at 8% -8%, rgb(244 124 156 / 0.07), transparent 60%),
+    radial-gradient(900px 520px at 108% -6%, rgb(154 140 232 / 0.06), transparent 55%),
+    radial-gradient(1200px 700px at 50% 120%, rgb(255 173 138 / 0.04), transparent 60%),
+    var(--color-paper);
+}
+
+* { box-sizing: border-box; }
+a { color: var(--color-brand-ink); text-decoration-color: var(--color-line-2); text-underline-offset: 3px; }
+a:hover { color: var(--color-brand-strong); }
+button { font: inherit; }
+:focus-visible { outline: 2px solid var(--color-brand); outline-offset: 2px; }
+h1, h2, h3 { color: var(--color-ink); letter-spacing: -0.01em; font-weight: 600; }
+::selection { background: var(--color-brand-soft); }
+
+/* ------------------------------------------------------------------ 卡片 */
+.card {
+  @apply bg-card border border-line p-4 md:p-5;
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  transition: transform var(--duration-med) var(--ease-soft), box-shadow var(--duration-med) var(--ease-soft);
+}
+.card-hoverable { cursor: pointer; }
+.card-hoverable:hover { transform: translateY(-2px); box-shadow: var(--shadow-card-hover); }
+.card-lg { border-radius: var(--radius-lg-card); }
+
+/* ------------------------------------------------------------------ 按钮 */
+.btn {
+  @apply inline-flex items-center justify-center gap-2 text-sm font-medium border select-none;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-btn);
+  transition: background var(--duration-fast) var(--ease-soft), box-shadow var(--duration-fast) var(--ease-soft),
+    transform var(--duration-fast) var(--ease-soft), color var(--duration-fast) var(--ease-soft);
+}
+.btn:active:not(:disabled) { transform: scale(0.98); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-primary {
+  color: #fff;
+  background: linear-gradient(135deg, var(--color-brand-strong), #c12f58);
+  border-color: #c12f58;
+  box-shadow: 0 2px 10px rgb(208 58 98 / 0.25);
+}
+.btn-primary:hover:not(:disabled) { box-shadow: 0 4px 16px rgb(208 58 98 / 0.32); filter: brightness(1.06); }
+.btn-ghost { @apply bg-white text-ink-2; border-color: var(--color-line-2); }
+.btn-ghost:hover:not(:disabled) { color: var(--color-ink); border-color: var(--color-brand); background: var(--color-brand-mist); }
+.btn-soft { color: var(--color-brand-ink); background: var(--color-brand-soft); border-color: var(--color-brand-soft); }
+.btn-soft:hover:not(:disabled) { background: #f8d9e2; }
+.btn-danger { background: var(--color-warn-soft); color: var(--color-warn); border-color: var(--color-warn-line); }
+.btn-danger:hover:not(:disabled) { background: #fbe3e8; }
+
+/* ------------------------------------------------------------------ 表单 */
+.input {
+  @apply w-full bg-white px-3 py-2 text-sm text-ink outline-none;
+  border: 1px solid var(--color-line-2);
+  border-radius: var(--radius-input);
+  transition: border-color var(--duration-fast) var(--ease-soft), box-shadow var(--duration-fast) var(--ease-soft);
+}
+.input:focus { border-color: var(--color-brand); box-shadow: 0 0 0 3px rgb(244 124 156 / 0.2); }
+.input::placeholder { color: var(--color-ink-3); }
+.label { @apply block text-xs text-ink-3 mb-1; }
+
+/* ------------------------------------------------------------------ 徽标 / 标签 */
+.badge {
+  @apply inline-flex items-center gap-1 px-2.5 py-0.5 text-xs font-medium;
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+.chip {
+  @apply inline-flex items-center gap-1 px-2 py-0.5 text-xs;
+  border-radius: 999px;
+  background: var(--color-paper-2);
+  color: var(--color-ink-2);
+  border: 1px solid var(--color-line);
+}
+
+/* ------------------------------------------------------------------ 旧导航（保留兼容，页面迁移完成后删） */
+.nav-pill { @apply px-3 py-1 text-sm no-underline text-ink-2 transition; border-radius: var(--radius-btn); }
+.nav-pill:hover { background: var(--color-paper-2); color: var(--color-ink); }
+.nav-pill-active { color: var(--color-brand-ink); background: var(--color-brand-soft); }
+
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+
+/* 五维配色（spec：灰紫 / 玫红 / 薄荷 / 浅粉 / 桃色） */
+.dim-responsiveness { --dim: #7c6fd6; }
+.dim-initiative { --dim: #e9688a; }
+.dim-investment { --dim: #4fae8f; }
+.dim-warmth { --dim: #f47c9c; }
+.dim-future { --dim: #eb9b5f; }
+
+/* ------------------------------------------------------------------ 动效 */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes pulse-soft {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+@keyframes orbit-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes orbit-rotate-rev {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+.anim-fade-up { animation: fade-up 220ms var(--ease-soft) both; }
+.anim-fade-in { animation: fade-in 180ms var(--ease-soft) both; }
+@media (prefers-reduced-motion: reduce) {
+  .anim-fade-up, .anim-fade-in { animation: none; }
+  .orbit-anim { animation: none !important; }
+}
+
+/* 细滚动条 */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: var(--color-line-2); border-radius: 8px; border: 2px solid var(--color-paper); }
+::-webkit-scrollbar-thumb:hover { background: var(--color-brand); }
+::-webkit-scrollbar-track { background: transparent; }

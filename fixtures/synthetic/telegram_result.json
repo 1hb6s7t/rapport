@@ -1,0 +1,1135 @@
+{
+ "name": "小红",
+ "type": "personal_chat",
+ "id": 1,
+ "messages": [
+  {
+   "id": 0,
+   "type": "message",
+   "date": "2026-08-01T21:28:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "周末有空吗"
+  },
+  {
+   "id": 1,
+   "type": "message",
+   "date": "2026-08-01T21:35:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "有空呀，怎么啦"
+  },
+  {
+   "id": 2,
+   "type": "message",
+   "date": "2026-08-01T21:47:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "想约你去看那个展"
+  },
+  {
+   "id": 3,
+   "type": "message",
+   "date": "2026-08-01T21:49:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "好啊，周六下午两点？"
+  },
+  {
+   "id": 4,
+   "type": "message",
+   "date": "2026-08-01T22:14:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "就周六两点"
+  },
+  {
+   "id": 5,
+   "type": "message",
+   "date": "2026-08-01T22:18:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "那我提前买票"
+  },
+  {
+   "id": 6,
+   "type": "message",
+   "date": "2026-08-01T23:36:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "吃了，你呢"
+  },
+  {
+   "id": 7,
+   "type": "message",
+   "date": "2026-08-02T00:58:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "晚安，好梦"
+  },
+  {
+   "id": 8,
+   "type": "message",
+   "date": "2026-08-02T21:41:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "晚上一起吃饭吗"
+  },
+  {
+   "id": 9,
+   "type": "message",
+   "date": "2026-08-02T21:45:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "好啊，你想吃啥"
+  },
+  {
+   "id": 10,
+   "type": "message",
+   "date": "2026-08-02T22:02:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "那家新开的川菜"
+  },
+  {
+   "id": 11,
+   "type": "message",
+   "date": "2026-08-02T22:05:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "行，六点半我到楼下等你"
+  },
+  {
+   "id": 12,
+   "type": "message",
+   "date": "2026-08-02T22:34:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "好，我准时"
+  },
+  {
+   "id": 13,
+   "type": "message",
+   "date": "2026-08-03T00:00:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "晚安"
+  },
+  {
+   "id": 14,
+   "type": "message",
+   "date": "2026-08-03T01:03:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "吃了，你呢"
+  },
+  {
+   "id": 15,
+   "type": "message",
+   "date": "2026-08-03T20:59:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "明天降温，你记得多穿点"
+  },
+  {
+   "id": 16,
+   "type": "message",
+   "date": "2026-08-03T21:06:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "我顺路给你带杯热的过去"
+  },
+  {
+   "id": 17,
+   "type": "message",
+   "date": "2026-08-03T21:16:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "你别跑一趟"
+  },
+  {
+   "id": 18,
+   "type": "message",
+   "date": "2026-08-03T21:24:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "顺路啦"
+  },
+  {
+   "id": 19,
+   "type": "message",
+   "date": "2026-08-03T23:10:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "早呀"
+  },
+  {
+   "id": 20,
+   "type": "message",
+   "date": "2026-08-03T23:38:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "吃了吗"
+  },
+  {
+   "id": 21,
+   "type": "message",
+   "date": "2026-08-04T21:40:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "我下周要出差"
+  },
+  {
+   "id": 22,
+   "type": "message",
+   "date": "2026-08-04T21:45:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "几天呀"
+  },
+  {
+   "id": 23,
+   "type": "message",
+   "date": "2026-08-04T22:20:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "三天"
+  },
+  {
+   "id": 24,
+   "type": "message",
+   "date": "2026-08-04T22:28:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "回来我去接你"
+  },
+  {
+   "id": 25,
+   "type": "message",
+   "date": "2026-08-04T22:42:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "那说定了"
+  },
+  {
+   "id": 26,
+   "type": "message",
+   "date": "2026-08-04T22:56:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "早呀"
+  },
+  {
+   "id": 27,
+   "type": "message",
+   "date": "2026-08-04T23:07:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "吃了吗"
+  },
+  {
+   "id": 28,
+   "type": "message",
+   "date": "2026-08-05T20:49:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "今天有点累"
+  },
+  {
+   "id": 29,
+   "type": "message",
+   "date": "2026-08-05T20:55:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "那早点休息，我陪你聊会儿"
+  },
+  {
+   "id": 30,
+   "type": "message",
+   "date": "2026-08-05T21:27:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "好"
+  },
+  {
+   "id": 31,
+   "type": "message",
+   "date": "2026-08-05T23:27:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "晚安"
+  },
+  {
+   "id": 32,
+   "type": "message",
+   "date": "2026-08-06T00:49:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "笑死"
+  },
+  {
+   "id": 33,
+   "type": "message",
+   "date": "2026-08-06T20:14:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "上次那本书我看完了"
+  },
+  {
+   "id": 34,
+   "type": "message",
+   "date": "2026-08-06T20:50:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "怎么样"
+  },
+  {
+   "id": 35,
+   "type": "message",
+   "date": "2026-08-06T20:55:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "好看，借你"
+  },
+  {
+   "id": 36,
+   "type": "message",
+   "date": "2026-08-06T21:04:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "那我周末去拿"
+  },
+  {
+   "id": 37,
+   "type": "message",
+   "date": "2026-08-06T21:06:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "好，老地方见"
+  },
+  {
+   "id": 38,
+   "type": "message",
+   "date": "2026-08-06T22:24:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "早呀"
+  },
+  {
+   "id": 39,
+   "type": "message",
+   "date": "2026-08-06T23:48:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "吃了吗"
+  },
+  {
+   "id": 40,
+   "type": "message",
+   "date": "2026-08-07T20:46:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "明天那个展去吗"
+  },
+  {
+   "id": 41,
+   "type": "message",
+   "date": "2026-08-07T20:54:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "明天不行，我要陪我妈去医院"
+  },
+  {
+   "id": 42,
+   "type": "message",
+   "date": "2026-08-07T21:04:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "那我改到周日"
+  },
+  {
+   "id": 43,
+   "type": "message",
+   "date": "2026-08-07T21:05:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "周日可以，下午三点？"
+  },
+  {
+   "id": 44,
+   "type": "message",
+   "date": "2026-08-07T21:42:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "好"
+  },
+  {
+   "id": 45,
+   "type": "message",
+   "date": "2026-08-07T22:30:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "早～"
+  },
+  {
+   "id": 46,
+   "type": "message",
+   "date": "2026-08-08T00:13:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "早呀"
+  },
+  {
+   "id": 47,
+   "type": "message",
+   "date": "2026-08-08T20:37:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "周末有空吗"
+  },
+  {
+   "id": 48,
+   "type": "message",
+   "date": "2026-08-08T20:40:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "有空呀，怎么啦"
+  },
+  {
+   "id": 49,
+   "type": "message",
+   "date": "2026-08-08T21:12:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "想约你去看那个展"
+  },
+  {
+   "id": 50,
+   "type": "message",
+   "date": "2026-08-08T21:15:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "好啊，周六下午两点？"
+  },
+  {
+   "id": 51,
+   "type": "message",
+   "date": "2026-08-08T21:17:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "就周六两点"
+  },
+  {
+   "id": 52,
+   "type": "message",
+   "date": "2026-08-08T21:18:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "那我提前买票"
+  },
+  {
+   "id": 53,
+   "type": "message",
+   "date": "2026-08-08T22:12:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "晚安，好梦"
+  },
+  {
+   "id": 54,
+   "type": "message",
+   "date": "2026-08-08T23:04:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "笑死"
+  },
+  {
+   "id": 55,
+   "type": "message",
+   "date": "2026-08-09T21:39:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "晚上一起吃饭吗"
+  },
+  {
+   "id": 56,
+   "type": "message",
+   "date": "2026-08-09T21:46:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "好啊，你想吃啥"
+  },
+  {
+   "id": 57,
+   "type": "message",
+   "date": "2026-08-09T22:00:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "那家新开的川菜"
+  },
+  {
+   "id": 58,
+   "type": "message",
+   "date": "2026-08-09T22:08:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "行，六点半我到楼下等你"
+  },
+  {
+   "id": 59,
+   "type": "message",
+   "date": "2026-08-09T22:34:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "好，我准时"
+  },
+  {
+   "id": 60,
+   "type": "message",
+   "date": "2026-08-10T00:12:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "哈哈哈哈"
+  },
+  {
+   "id": 61,
+   "type": "message",
+   "date": "2026-08-10T01:37:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "晚安，好梦"
+  },
+  {
+   "id": 62,
+   "type": "message",
+   "date": "2026-08-10T21:06:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "明天降温，你记得多穿点"
+  },
+  {
+   "id": 63,
+   "type": "message",
+   "date": "2026-08-10T21:13:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "我顺路给你带杯热的过去"
+  },
+  {
+   "id": 64,
+   "type": "message",
+   "date": "2026-08-10T21:26:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "你别跑一趟"
+  },
+  {
+   "id": 65,
+   "type": "message",
+   "date": "2026-08-10T21:31:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "顺路啦"
+  },
+  {
+   "id": 66,
+   "type": "message",
+   "date": "2026-08-10T21:58:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "早～"
+  },
+  {
+   "id": 67,
+   "type": "message",
+   "date": "2026-08-10T23:22:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "晚安，好梦"
+  },
+  {
+   "id": 68,
+   "type": "message",
+   "date": "2026-08-11T20:12:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "我下周要出差"
+  },
+  {
+   "id": 69,
+   "type": "message",
+   "date": "2026-08-11T20:20:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "几天呀"
+  },
+  {
+   "id": 70,
+   "type": "message",
+   "date": "2026-08-11T20:34:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "三天"
+  },
+  {
+   "id": 71,
+   "type": "message",
+   "date": "2026-08-11T20:39:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "回来我去接你"
+  },
+  {
+   "id": 72,
+   "type": "message",
+   "date": "2026-08-11T20:53:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "那说定了"
+  },
+  {
+   "id": 73,
+   "type": "message",
+   "date": "2026-08-11T22:22:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "晚安，好梦"
+  },
+  {
+   "id": 74,
+   "type": "message",
+   "date": "2026-08-12T00:12:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "晚安"
+  },
+  {
+   "id": 75,
+   "type": "message",
+   "date": "2026-08-12T20:30:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "今天有点累"
+  },
+  {
+   "id": 76,
+   "type": "message",
+   "date": "2026-08-12T20:32:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "那早点休息，我陪你聊会儿"
+  },
+  {
+   "id": 77,
+   "type": "message",
+   "date": "2026-08-12T20:59:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "好"
+  },
+  {
+   "id": 78,
+   "type": "message",
+   "date": "2026-08-12T22:01:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "哈哈哈哈"
+  },
+  {
+   "id": 79,
+   "type": "message",
+   "date": "2026-08-12T22:13:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "吃了，你呢"
+  },
+  {
+   "id": 80,
+   "type": "message",
+   "date": "2026-08-13T21:10:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "上次那本书我看完了"
+  },
+  {
+   "id": 81,
+   "type": "message",
+   "date": "2026-08-13T21:37:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "怎么样"
+  },
+  {
+   "id": 82,
+   "type": "message",
+   "date": "2026-08-13T21:45:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "好看，借你"
+  },
+  {
+   "id": 83,
+   "type": "message",
+   "date": "2026-08-13T22:20:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "那我周末去拿"
+  },
+  {
+   "id": 84,
+   "type": "message",
+   "date": "2026-08-13T22:28:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "好，老地方见"
+  },
+  {
+   "id": 85,
+   "type": "message",
+   "date": "2026-08-13T23:08:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "早～"
+  },
+  {
+   "id": 86,
+   "type": "message",
+   "date": "2026-08-14T00:44:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "笑死"
+  },
+  {
+   "id": 87,
+   "type": "message",
+   "date": "2026-08-14T21:03:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "明天那个展去吗"
+  },
+  {
+   "id": 88,
+   "type": "message",
+   "date": "2026-08-14T21:05:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "明天不行，我要陪我妈去医院"
+  },
+  {
+   "id": 89,
+   "type": "message",
+   "date": "2026-08-14T21:17:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "那我改到周日"
+  },
+  {
+   "id": 90,
+   "type": "message",
+   "date": "2026-08-14T21:18:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "周日可以，下午三点？"
+  },
+  {
+   "id": 91,
+   "type": "message",
+   "date": "2026-08-14T21:42:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "好"
+  },
+  {
+   "id": 92,
+   "type": "message",
+   "date": "2026-08-14T22:18:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "吃了，你呢"
+  },
+  {
+   "id": 93,
+   "type": "message",
+   "date": "2026-08-14T22:53:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "早～"
+  },
+  {
+   "id": 94,
+   "type": "message",
+   "date": "2026-08-15T21:03:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "周末有空吗"
+  },
+  {
+   "id": 95,
+   "type": "message",
+   "date": "2026-08-15T21:06:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "有空呀，怎么啦"
+  },
+  {
+   "id": 96,
+   "type": "message",
+   "date": "2026-08-15T21:22:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "想约你去看那个展"
+  },
+  {
+   "id": 97,
+   "type": "message",
+   "date": "2026-08-15T21:24:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "好啊，周六下午两点？"
+  },
+  {
+   "id": 98,
+   "type": "message",
+   "date": "2026-08-15T21:32:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "就周六两点"
+  },
+  {
+   "id": 99,
+   "type": "message",
+   "date": "2026-08-15T21:35:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "那我提前买票"
+  },
+  {
+   "id": 100,
+   "type": "message",
+   "date": "2026-08-15T21:59:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "早～"
+  },
+  {
+   "id": 101,
+   "type": "message",
+   "date": "2026-08-15T22:56:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "晚安"
+  },
+  {
+   "id": 102,
+   "type": "message",
+   "date": "2026-08-16T21:29:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "晚上一起吃饭吗"
+  },
+  {
+   "id": 103,
+   "type": "message",
+   "date": "2026-08-16T21:35:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "好啊，你想吃啥"
+  },
+  {
+   "id": 104,
+   "type": "message",
+   "date": "2026-08-16T21:42:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "那家新开的川菜"
+  },
+  {
+   "id": 105,
+   "type": "message",
+   "date": "2026-08-16T21:47:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "行，六点半我到楼下等你"
+  },
+  {
+   "id": 106,
+   "type": "message",
+   "date": "2026-08-16T22:12:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "好，我准时"
+  },
+  {
+   "id": 107,
+   "type": "message",
+   "date": "2026-08-16T22:18:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "哈哈哈哈"
+  },
+  {
+   "id": 108,
+   "type": "message",
+   "date": "2026-08-16T22:36:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "吃了，你呢"
+  },
+  {
+   "id": 109,
+   "type": "message",
+   "date": "2026-08-17T20:20:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "明天降温，你记得多穿点"
+  },
+  {
+   "id": 110,
+   "type": "message",
+   "date": "2026-08-17T20:27:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "我顺路给你带杯热的过去"
+  },
+  {
+   "id": 111,
+   "type": "message",
+   "date": "2026-08-17T20:59:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "你别跑一趟"
+  },
+  {
+   "id": 112,
+   "type": "message",
+   "date": "2026-08-17T21:04:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "顺路啦"
+  },
+  {
+   "id": 113,
+   "type": "message",
+   "date": "2026-08-17T22:47:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "早呀"
+  },
+  {
+   "id": 114,
+   "type": "message",
+   "date": "2026-08-17T23:22:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "笑死"
+  },
+  {
+   "id": 115,
+   "type": "message",
+   "date": "2026-08-18T20:54:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "我下周要出差"
+  },
+  {
+   "id": 116,
+   "type": "message",
+   "date": "2026-08-18T20:58:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "几天呀"
+  },
+  {
+   "id": 117,
+   "type": "message",
+   "date": "2026-08-18T21:13:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "三天"
+  },
+  {
+   "id": 118,
+   "type": "message",
+   "date": "2026-08-18T21:14:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "回来我去接你"
+  },
+  {
+   "id": 119,
+   "type": "message",
+   "date": "2026-08-18T21:45:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "那说定了"
+  },
+  {
+   "id": 120,
+   "type": "message",
+   "date": "2026-08-18T23:21:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "晚安，好梦"
+  },
+  {
+   "id": 121,
+   "type": "message",
+   "date": "2026-08-18T23:43:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "笑死"
+  },
+  {
+   "id": 122,
+   "type": "message",
+   "date": "2026-08-19T20:33:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "今天有点累"
+  },
+  {
+   "id": 123,
+   "type": "message",
+   "date": "2026-08-19T20:36:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "那早点休息，我陪你聊会儿"
+  },
+  {
+   "id": 124,
+   "type": "message",
+   "date": "2026-08-19T21:04:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "好"
+  },
+  {
+   "id": 125,
+   "type": "message",
+   "date": "2026-08-19T21:43:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "吃了，你呢"
+  },
+  {
+   "id": 126,
+   "type": "message",
+   "date": "2026-08-19T23:15:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "早呀"
+  },
+  {
+   "id": 127,
+   "type": "message",
+   "date": "2026-08-20T20:37:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "上次那本书我看完了"
+  },
+  {
+   "id": 128,
+   "type": "message",
+   "date": "2026-08-20T20:44:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "怎么样"
+  },
+  {
+   "id": 129,
+   "type": "message",
+   "date": "2026-08-20T20:46:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "好看，借你"
+  },
+  {
+   "id": 130,
+   "type": "message",
+   "date": "2026-08-20T21:08:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "那我周末去拿"
+  },
+  {
+   "id": 131,
+   "type": "message",
+   "date": "2026-08-20T21:16:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "好，老地方见"
+  },
+  {
+   "id": 132,
+   "type": "message",
+   "date": "2026-08-20T22:31:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "吃了吗"
+  },
+  {
+   "id": 133,
+   "type": "message",
+   "date": "2026-08-20T23:24:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "晚安"
+  },
+  {
+   "id": 134,
+   "type": "message",
+   "date": "2026-08-21T21:27:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "明天那个展去吗"
+  },
+  {
+   "id": 135,
+   "type": "message",
+   "date": "2026-08-21T21:28:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "明天不行，我要陪我妈去医院"
+  },
+  {
+   "id": 136,
+   "type": "message",
+   "date": "2026-08-21T21:42:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "那我改到周日"
+  },
+  {
+   "id": 137,
+   "type": "message",
+   "date": "2026-08-21T21:44:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "周日可以，下午三点？"
+  },
+  {
+   "id": 138,
+   "type": "message",
+   "date": "2026-08-21T22:13:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "好"
+  },
+  {
+   "id": 139,
+   "type": "message",
+   "date": "2026-08-21T23:41:00",
+   "from": "小红",
+   "from_id": "user2",
+   "text": "早～"
+  },
+  {
+   "id": 140,
+   "type": "message",
+   "date": "2026-08-22T01:03:00",
+   "from": "小明",
+   "from_id": "user1",
+   "text": "晚安"
+  }
+ ]
+}

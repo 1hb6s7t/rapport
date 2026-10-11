@@ -1,0 +1,63 @@
+name: ci
+on:
+  push:
+    # v0.5 is the working branch this repository is currently published from.
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv python install 3.12
+      - run: uv sync --extra ocr --extra wechat-database --extra research-signals
+        working-directory: backend
+      - run: uv run ruff check rapport tests
+        working-directory: backend
+      - run: uv run pytest -q
+        working-directory: backend
+        env:
+          RAPPORT_DATA_DIR: ${{ runner.temp }}/rapport
+      - run: uv run rapport analyze ../fixtures/synthetic/paste_ab_warm.txt --json > /dev/null
+        working-directory: backend
+      # Release gate: known-vulnerability audit of the locked dependency set.
+      - run: uv run --with pip-audit pip-audit --progress-spinner off
+        working-directory: backend
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+        working-directory: frontend
+      - run: npx tsc --noEmit
+        working-directory: frontend
+      - run: npx vitest run
+        working-directory: frontend
+      - run: npm run build
+        working-directory: frontend
+  secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      # Release gate: no key or real chat material may ever enter the repository.
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: [backend, frontend, secrets]
+    if: github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -f docker/Dockerfile -t rapport-ai:ci .
