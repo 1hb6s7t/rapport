@@ -3,7 +3,7 @@ name = "rapport"
 version = "1.0.0"
 description = "Rapport (心迹) — self-hosted AI relationship chat analyzer: affinity index, persona profile, playbook. Local-first, BYOK."
 readme = "README.md"
-license = { text = "MIT" }
+license = { text = "Apache-2.0" }
 authors = [{ name = "Rapport contributors" }]
 requires-python = ">=3.12"
 dependencies = [

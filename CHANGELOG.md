@@ -13,6 +13,8 @@
 **变更**
 - 版本号 0.8.0a0 → 1.0.0。
 - CI 在安装 `wechat-database` 与 `research-signals` extra 之后再跑测试；工作分支收敛到 `main`。
+- 许可由 MIT 改为 **Apache-2.0**（`LICENSE`、新增 `NOTICE`、`pyproject.toml`、徽章与文档同步）。
+- README 品牌标识更新为当前版本，与首页水彩标识一致。
 
 **测试**：后端 1000 通过 / 23 跳过（另有 1 项在缺少 `psutil` 的环境下失败，装上 `wechat-database` extra 后通过）。
 

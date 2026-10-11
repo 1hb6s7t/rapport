@@ -1,0 +1,19 @@
+Rapport (心迹)
+Copyright 2026 Rapport contributors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+It bundles or adapts the following third-party components, each retained under
+its own licence and with its original copyright notice preserved:
+
+  - dsh-wechat-bot derived modules (MIT, Copyright 2025)
+    backend/rapport/desktop/  ->  LICENSE-dsh-wechat-bot.txt
+  - pyweixin (see LICENSE-pyweixin.txt)
+    backend/rapport/desktop/  ->  LICENSE-pyweixin.txt
+  - ConvoKit Chinese CSCW marker extractor (MIT)
+    backend/rapport/research/vendor/convokit_zh/  ->  PROVENANCE.md
+  - DialogueCRN reference implementation (MIT)
+    backend/rapport/research/vendor/dialogue_crn/  ->  PROVENANCE.md
+
+The full dependency list, with licences and purposes, is in
+THIRD_PARTY_NOTICES.md.

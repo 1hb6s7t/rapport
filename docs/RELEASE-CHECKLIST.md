@@ -9,7 +9,7 @@
 | 自动化测试 | 后端 **238 项通过**（`uv run pytest -q`），前端 tsc / vitest / 构建通过 |
 | 静态检查 | `uv run ruff check rapport tests` 无告警 |
 | 依赖漏洞审计 | `pip-audit` 对锁定依赖返回 **No known vulnerabilities found**（本机 2026-09-15 实跑；CI 已接入，含 gitleaks 密钥扫描） |
-| 许可 | 自有代码 MIT；依赖许可类别与**实际锁定版本**见 `THIRD_PARTY_NOTICES.md` |
+| 许可 | 自有代码 Apache-2.0；依赖许可类别与**实际锁定版本**见 `THIRD_PARTY_NOTICES.md` |
 | 密钥不外泄 | 有测试固定：Key 不出现在 settings / health / diagnostics / 报告 / 导出；诊断信息不含聊天与日记 |
 | 删除级联 | 有测试固定：删导入清加密 blob、删报告清正文+快照+画像版本、清空数据清所有派生存储；到期材料会被清理 |
 | 零外发（规则模式） | 有测试固定：Rules 模式不产生任何模型调用；`ConnectionMode=local` 时云端点被直接拒绝 |

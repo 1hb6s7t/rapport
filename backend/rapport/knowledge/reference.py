@@ -4,7 +4,7 @@ Access rules, in order of importance:
 
 1. **Only approved entries load.** Anything whose `license_review_status` is not exactly
    `approved_for_local_reference` is skipped, and the loader reports how many it skipped.
-   This project is MIT and non-commercial, but that does not grant rights to third-party
+   This project is Apache-2.0 licensed and non-commercial, but that does not grant rights to third-party
    corpora — CPED's repo licence does not clear its underlying film material, Dialogue-MPDD's
    licence is unspecified, and ESConv is academic-use-only. None of them may be bundled.
 2. **Evaluation material never enters the library.** Ids reserved for evaluation (`eval:`)

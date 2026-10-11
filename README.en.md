@@ -4,7 +4,7 @@
   <p><b>Turn a conversation into judgements you can see the evidence for.</b></p>
   <p><sub>Open source · local-first · nothing uploaded, nothing guessed, no promises about outcomes</sub></p>
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-6d28d9.svg)](LICENSE)
+  [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-6d28d9.svg)](LICENSE)
   ![Python](https://img.shields.io/badge/Python-3.12%2B-6d28d9)
   ![Node](https://img.shields.io/badge/Node-22%2B-6d28d9)
   ![Tests](https://img.shields.io/badge/tests-1000%20passing-2e7d32)
@@ -126,4 +126,4 @@ No auto-sending (the optional desktop paste needs a manual click per message); n
 
 ## Credits and sources
 
-During product research we looked at public relationship-analysis products, and at published work on textual attraction cues, emotion recognition in dialogue, text-based personality computing and its limits, and emotional-support conversation strategies. All code, prompts, word lists, action templates and synthetic data in this project are original and MIT licensed. Third-party licences are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+During product research we looked at public relationship-analysis products, and at published work on textual attraction cues, emotion recognition in dialogue, text-based personality computing and its limits, and emotional-support conversation strategies. All code, prompts, word lists, action templates and synthetic data in this project are original and Apache-2.0 licensed. Third-party licences are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

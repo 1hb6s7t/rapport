@@ -4,7 +4,7 @@
   <p><b>把一段对话，复盘成看得见证据的判断。</b></p>
   <p><sub>开源 · 本地优先 · 不上传、不猜心、不承诺结果</sub></p>
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-6d28d9.svg)](LICENSE)
+  [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-6d28d9.svg)](LICENSE)
   ![Python](https://img.shields.io/badge/Python-3.12%2B-6d28d9)
   ![Node](https://img.shields.io/badge/Node-22%2B-6d28d9)
   ![Tests](https://img.shields.io/badge/tests-1000%20passing-2e7d32)
@@ -255,4 +255,4 @@ cd backend && uv run python ../scripts/make_fixtures.py
 
 ## 致谢与来源
 
-产品调研阶段参考了公开的关系分析类产品，以及文本吸引力线索、对话情绪识别、基于文本的人格计算及其局限、情绪支持对话策略等方向的公开研究。所有代码、提示词、词表、行动模板与合成数据均为本项目原创，MIT 许可。第三方依赖许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+产品调研阶段参考了公开的关系分析类产品，以及文本吸引力线索、对话情绪识别、基于文本的人格计算及其局限、情绪支持对话策略等方向的公开研究。所有代码、提示词、词表、行动模板与合成数据均为本项目原创，Apache-2.0 许可。第三方依赖许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

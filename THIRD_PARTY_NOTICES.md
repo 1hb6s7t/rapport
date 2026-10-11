@@ -1,6 +1,6 @@
 # Third-party notices
 
-Rapport 自身代码为 MIT 许可。运行时与构建依赖保留其各自许可（以锁文件中的实际版本为准，发布前请用 `uv pip licenses` / `npx license-checker` 复核）：
+Rapport 自身代码为 Apache-2.0 许可（全文见 [LICENSE](LICENSE)）。再分发时请随附 `LICENSE` 与 [NOTICE](NOTICE)，后者列出需要保留署名的内置第三方组件。运行时与构建依赖保留其各自许可（以锁文件中的实际版本为准，发布前请用 `uv pip licenses` / `npx license-checker` 复核）：
 
 | 组件 | 许可 | 用途 |
 |---|---|---|
